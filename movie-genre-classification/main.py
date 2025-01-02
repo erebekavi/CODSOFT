@@ -19,7 +19,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-from matplotlib import pyplot as plt
+
 
 #load dataset
 train_data = pd.read_csv("movie-genre-classification/dataset/train_data.txt",sep=":::",names=["title","genre","des"],engine="python")
